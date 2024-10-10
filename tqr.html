@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        background-color: #e1a3a3;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding-right: .5em;
+        background-color: #DC3535;
+        font-size: 1.3em;
+        height: 3em;
+        font-weight: 600;
+    }
+
+    app-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    img{
+        width: 60%;
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+
+    a{
+        width: 20%;
+    }
+    button{
+        background-color: rgb(255, 196, 0);
+        border-radius: 15px;
+        height: 3em;
+        width: 7em;
+        font-weight: 600;
+        border-style: none;
+    }
+</style>
+<body>
+    <header>QR READER</header>
+    <app-body>
+        <p>
+            Make sure the QR Code is within the frame.
+        </p>
+        <img src="https://cdn-icons-png.freepik.com/512/54/54272.png">
+        <a href="tpayment.html">
+            <button>Confirm</button>
+        </a>
+    </app-body>
+</body>
+</html>

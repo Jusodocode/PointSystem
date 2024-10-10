@@ -1,0 +1,60 @@
+*{
+    background-color: #DC3535;
+        font-family: "Bai Jamjuree", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+}
+
+.line {
+    border-bottom: 1px solid black;
+  }
+
+img{
+    width: 12em;
+    display: flex;
+    justify-content:center
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 4em;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid #F6B536;
+    margin: 20px 0; 
+    width: 80%;
+}
+
+.horizontal-line2 {
+        border-bottom: 1px solid #F6B536;
+        margin: 20px 0; 
+        width: 80%;
+    
+}
+
+
+p{
+    display: flex;
+    width: 80%;
+    padding-top: 6em;
+    color: #1E1E1E;
+    
+}
+
+p2{
+    display: flex;
+    width: 80%;
+    color: #1E1E1E;
+    
+}
+
+
+p3{
+    display: flex;
+    padding-top: 10em;
+    color: black;
+}

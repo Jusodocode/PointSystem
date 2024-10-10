@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asterisk Canvas</title>
+  <style>
+    canvas {
+      border: 2px solid black; /* Adding a border to the canvas */
+    }
+  </style>
+</head>
+<body>
+  <canvas id="asteriskCanvas" width="400" height="400"></canvas>
+  <script>
+    const canvas = document.getElementById('asteriskCanvas');
+    const ctx = canvas.getContext('2d');
+
+    // Drawing the asterisk using lines
+    ctx.beginPath();
+    ctx.moveTo(200, 0); // Move to the top center
+    ctx.lineTo(200, 400); // Draw a line to the bottom center
+    ctx.lineWidth = 2; // Setting a different line width for one line
+    ctx.strokeStyle = 'blue'; // Setting a different line color for one line
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.moveTo(0, 200); // Move to the left center
+    ctx.lineTo(400, 200); // Draw a line to the right center
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.moveTo(100, 100); // Move to the top left
+    ctx.lineTo(300, 300); // Draw a line to the bottom right
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.moveTo(100, 300); // Move to the bottom left
+    ctx.lineTo(300, 100); // Draw a line to the top right
+    ctx.stroke();
+  </script>
+</body>
+</html>

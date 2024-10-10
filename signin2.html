@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of San Agustin Point System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<style>
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d32f2f;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #d32f2f;
+}
+
+.logo img {
+    margin-left: 5em;
+    padding-bottom: 4em;
+    padding-top: 2em;
+    width: 12em;
+    display: flex;
+    justify-content:center
+    
+    
+}
+
+.login-form {
+    position: relative;
+    margin-bottom: 5em;
+}
+
+.login-form input {
+    width: 85%;
+    padding: 5px 0;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #ffeb3b6f;
+    background-color: #d32f2f;
+    color: rgb(231, 226, 226);
+    font-size: 16px;
+    outline: none;
+    font-family: 'Poppins' , sans-serif;
+    text-indent: 1px; /* Ensure the cursor starts where the line starts */
+}
+
+.login-form input:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    height: 2px;
+    background-color: #ffeb3b;
+}
+
+.login-form input::placeholder {
+    content: " ";
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    color: #862222;
+    transform: translateY(-50%);
+}
+
+.login-form button {
+    width: 60%;
+    height: 4em;
+    padding: 10px;
+    margin-top: 6em;
+    background-color: #F6B536;
+    border: none;
+    border-radius: 35px;
+    font-size: 18px;
+    font-family: 'Poppins' , sans-serif;
+    color: #302d2d;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+    background-color: #fdd835;
+}
+
+::placeholder {
+    color: #701E00;
+    opacity: 1;
+}
+
+ulo{
+    font-family: 'Poppins' , sans-serif;
+    font-weight:525;
+    color: #ffbfc0;
+    font-size: 30px;
+    
+}
+
+a{
+    display:flex;
+    align-self: center;
+    margin-left: 4.5em;
+    margin-top: 5em;
+    text-decoration: none;
+}
+
+p3 {
+    background-color: #F6B536;
+	height: 3em;
+	border-radius: 30px;
+	width: 75%;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+    font-family: 'Poppins' , sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+    color: #302d2d;
+}
+
+p3:hover{
+    background-color: #986f1b;
+    transition: 0.4s;
+}
+
+</style>
+<body>
+    
+    <div class="container">
+        <div class="logo">
+            <ulo>USA POINT SYSTEM</ulo>
+            <image src="images/logo.png">
+        </div>
+        <form class="login-form">
+            <input type="text" placeholder="USA E-mail " required>
+            <input type="password" placeholder="Password" required>
+            <a href="Choice.html"><p3>LOG IN</p3></a>
+        </form>
+    </div>
+   
+    
+</body>
+</html>

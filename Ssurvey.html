@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tmenu</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        background-color: #F6B536;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .srvicon {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        gap: 3.5em;
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    .srvicon svg {
+        border-radius: 100px;
+        padding: 10px;
+        background-color: #DC3535;
+        margin-left: 1em;
+        border: none;
+    }
+
+    .srvicon p {
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 1em;
+        font-family: 'Poppins' , sans-serif;
+        color: #855f11;
+    }
+
+    .h3 {
+        margin-left: 5em;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    input[type=submit] {
+        background-color: #DC3535;
+        margin-right: 22.5em;
+        margin-top: 2em;
+        margin-left: 2.5em;
+        height: 4em;
+        width: 6em;
+        border-radius: 30%;
+        border: none;
+        font-family: 'Poppins' , sans-serif;
+    }
+
+    textarea {
+        background-color: #DC3535;
+        border-radius: 25px;
+        margin-left: 33px;
+        padding-top: 10px;
+        padding-left: 10px;
+        font-family: 'Poppins' , sans-serif;
+
+    }
+
+    .text{
+        font-size: medium;
+        
+    }
+
+    h4{
+        display: flex;
+        justify-content: center;
+        padding: 2em;
+        font-family: 'Poppins' , sans-serif;
+        padding-top: 0.1em
+    }
+
+    ::placeholder{
+        font-family: 'Poppins' , sans-serif;
+        color:#8b2424;
+    }
+    
+    path{
+        color:#F6B536
+    }
+
+</style>
+<body>
+    <div class="srvicon">
+        <a href="smenu.html">
+   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-journal-text" viewBox="0 0 16 16">
+     <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+     <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+     <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+   </svg>
+</a>
+   <p>Survey</p>
+    </div>
+
+    <div>
+        <h3>We Value your feedback</h3>
+    </div>
+
+    <div class="text">
+        <h4>We strive to enhance your experience with our Point System.
+            Your feedback is invaluable to us. Please take a moment to share your
+            thoughts in the survey box below.
+        </h4>
+    </div>
+<form>
+    <div>
+        <textarea id="message" placeholder="Your Message" cols="51" rows="15"></textarea>
+    </div>
+
+    <div>
+        <input type="submit">
+    </div>
+</form>
+</body>
+</html>
